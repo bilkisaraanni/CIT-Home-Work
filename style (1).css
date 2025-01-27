@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.frist{
+  display: flex;
+  justify-content: space-between;
+}
+.secend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third{
+  display: flex;
+  justify-content: space-between;
+}
+.one{
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+.two{
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+.three{
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+.four{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.five{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
