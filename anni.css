@@ -1,0 +1,56 @@
+body{
+    background: orange;
+}
+div{
+    height: 70px; width: 200px; border-radius: 20px; background-color: deepskyblue; 
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+}
+
+p{
+    /*position: relative;*/
+    z-index: 2;
+}
+
+p::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    z-index: -1;
+    transition: 1s;
+}
+
+p{
+    /*position: relative;*/
+    z-index: 2;
+    
+}
+
+p::after{
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    border-radius: 20px;
+    transition: 1s;
+    background-color: rgb(10, 255, 87);
+}
+
+p:hover::after, p:hover::before{
+    opacity: 0.3;
+    height: 100%; 
+}
