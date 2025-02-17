@@ -1,0 +1,330 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.button{
+  top: 10px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-ul{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+    
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.button{
+    background-color: #FFA343;
+    color: #000; 
+    font-size: 17px;
+    font-weight: 700;
+   
+    width: 235px;
+    height: 65px;
+    border-radius: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+/* part */
+/* .container{
+    position: relative;
+}
+.text-2 h3{
+    color: #AB0505;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 10px;
+}
+.text-2 p{
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 10px;
+}
+.text-1{
+   
+    position: absolute;
+    bottom: 35px;
+    left: 70%;
+    transform: translate(-50%);
+    max-width: 920px;
+    text-align: center;
+    margin-top: 200px;
+}
+ */ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 43px;
+}
+.logobar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+.svg{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.button{
+    background: #FF6624;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+
+}
+.button:hover{
+    background: #231711;
+}
+.container-1{
+    background:rgb(220, 205, 205);
+    display: flex;
+    justify-content: space-between;
+
+}
+.pic img:hover{
+    background: rgb(91, 91, 247);
+}
+.pic-1 img:hover{
+    background:rgb(91, 91, 247) ; 
+}
+
+/* bannar */
+
+.bannar-1{
+    position: relative;
+}
+.one{
+    width: 100%;
+}
+/* .text{
+    position: absolute;
+} */
+
+.text h3{
+    position: absolute;
+    top: 220px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px;
+    left: 1300px;
+    color:#AB0505;
+}
+.text p{
+    position: absolute;
+    top: 280px;
+    left: 1300px;
+    font-weight: 500px;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: center;
+    padding-top: 26px;
+
+}
+.text a {
+    position:relative;
+    /* top: 360px;
+    left: 1500px; */
+    font-weight: 500px;
+    font-size: 30px;
+    color:rgb(8, 2, 2);
+    left: 50px;
+    
+}
+.read {
+   position: absolute;
+   font-size: 35px;
+   top: 420px;
+   left: 1400px;
+   padding-top: 60px;
+}
+button{
+    background: #FF6B2C;
+    height: 70px;
+    width: 240px;
+    border-radius: 30px;
+    border: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+   
+}
+
+/* 3rd part */
+
+.testy{
+    font-size: 50px;
+    text-align: center;
+}
+.testy-1{
+    margin-top: 75px;
+}
+.foodfun{
+    margin-top: 75px;
+} 
+.salad{
+    margin-left: 20px;
+}
+.Cake{
+    margin-left: 20px;
+}
+.burger{
+    margin-left: 20px;
+}
+.icecream{
+    margin-left: 20px;
+}
+.pasta{
+    margin-left: 20px;
+}
+.cookies{
+    margin-left: 20px;
+}
+.three-2{
+    display: flex;
+}
+.salad h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.salad p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.Cake h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.Cake p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.burger h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.burger p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.three-3{
+    display: flex;
+}
+.icecream h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.icecream p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.pasta h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.pasta p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.cookies h3{
+    font-size: 50px;
+    line-height: 60px;
+}
+.cookies p{
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 400px;
+}
+.three-3{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+/* 3rd part */
+.bbt{
+    background:#FF7F48 ;
+    width: 290px;
+    height: 82px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 850px;
+    
+}
+.bbt:hover{
+    background:#26160f ;
+}
+a{
+    max-width: 500;
+    font-size: 32px;
+}
+/* 4th part */
+.four-2{
+    max-width: 500;
+    font-size: 65px;
+    line-height: 82px;
+    margin-top:60px ;
+    margin-left: 850px;
+}
+.im{
+    display: flex;
+    margin-top: 50px;
+}
+.imgg{
+    display: flex;
+}
